@@ -8,6 +8,8 @@ We identified the following vulnerabilities:
 
 - BUG1 - RDRAM register overflow
 
-This is a demonstration video of the exploit, showcasing the execution of my modified version of *Super Mario 64*. I hid the payload behind the erase button, and when this button is triggered, the host machine launches the calculator.
+This is a demonstration video of the exploit, showcasing the execution of the hacked version of *Super Mario 64*. I hid the payload behind the *ERASE* button, and when this button is triggered, the host machine launches the calculator.
+
+https://github.com/user-attachments/assets/d7f2b4e3-062a-4956-ad4c-041c1c3e6c4a
 
 Finally, I would like to extend my heartfelt gratitude to Nintendo for creating the legendary N64 console and the timeless classic *Super Mario 64*, which brought me countless hours of joy during my childhood. I would also like to thank the Mupen64Plus development team for their dedication and hard work, which allows us to revisit these classic games on modern devices.
