@@ -6,7 +6,15 @@ Driven by curiosity about how Mupen64Plus emulates the N64 console, I audited it
 
 We identified the following vulnerabilities:
 
-- BUG1 - RDRAM register overflow
+- BUG1 - rdram register overflow
+- BUG2 - mi_reg overflow
+- BUG3 - ai_reg overflow
+- BUG4 - pi_reg overflow
+- BUG5 - vi_reg overflow
+- BUG6 - dps_reg overflow
+- BUG7 - si_reg overflow
+- BUG8 - rsp_reg overflow
+- BUG9 - ri_reg overflow
 
 This is a demonstration video of the exploit, showcasing the execution of the hacked version of *Super Mario 64*. I hid the payload behind the *ERASE* button, and when this button is triggered, the host machine launches the calculator.
 
