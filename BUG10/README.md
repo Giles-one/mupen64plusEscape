@@ -3,7 +3,7 @@
 **BUG_Author:** Li Gangyang, USTC/TTCN
 
 
-**Affected Version:** mupen64plus ≤ 1.2.3
+**Affected Version:** mupen64plus ≤ 2.6.0
 
 **Vendor:** [mupen64plus emulator](https://mupen64plus.org/)
 
