@@ -9,6 +9,9 @@
 
 **Software:** [mupen64plus-core](https://github.com/mupen64plus/mupen64plus-core/)
 
+**Vulnerability Files:**
+    - `src/device/cart/is_viewer.c#L59`
+
 **Vulnerability Description:**  Mupen64Plus is a cross-platform, plugin-based N64 emulator that can accurately run many games. It includes four MIPS R4300 CPU emulators, a dynamic recompilation engine that supports 32-bit x86 and 64-bit amd64 systems, and plugins for audio, graphics rendering, signal co-processors, and input.
 
 The Mupen64Plus emulator has an integer overflow vulnerability in its write_is_viewer function. An attacker can exploit this vulnerability by injecting malicious code into a game's ROM package, allowing them to escape the emulator and achieve arbitrary code execution on the host machine.
