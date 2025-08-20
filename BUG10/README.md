@@ -1,4 +1,20 @@
-#### Integer Overflow in *write_is_viewer*
+## Title: Integer Overflow and Virtual Machine Escape in mupen64plus <= 2.6.0
+
+**BUG_Author:** Li Gangyang, USTC/TTCN
+
+
+**Affected Version:** mupen64plus ≤ 1.2.3
+
+**Vendor:** [mupen64plus emulator](https://mupen64plus.org/)
+
+**Software:** [mupen64plus-core](https://github.com/mupen64plus/mupen64plus-core/)
+
+**Vulnerability Description:**  Mupen64Plus is a cross-platform, plugin-based N64 emulator that can accurately run many games. It includes four MIPS R4300 CPU emulators, a dynamic recompilation engine that supports 32-bit x86 and 64-bit amd64 systems, and plugins for audio, graphics rendering, signal co-processors, and input.
+
+The Mupen64Plus emulator has an integer overflow vulnerability in its write_is_viewer function. An attacker can exploit this vulnerability by injecting malicious code into a game's ROM package, allowing them to escape the emulator and achieve arbitrary code execution on the host machine.
+
+
+#### Vulnerability Analysis
 
 Both `is_viewer->buffer_pos` and `word` are variables of type uint32_t, so their addition may result in integer overflow, causing the result to become smaller.
 
